@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.game-container {
+    width: 600px;
+    height: 600px;
+    border: 1px solid #000;
+    position: relative;
+}
+
+.worm {
+    width: 20px;
+    height: 20px;
+    background-color: #00f;
+    position: absolute;
+}
+
+.apple {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+}
+
+.new-segment {
+    width: 20px;
+    height: 20px;
+    background-color: #00f;
+    position: absolute;
+}
+
+.timer {
+    height: 155px;
+    width: 200;
+}
